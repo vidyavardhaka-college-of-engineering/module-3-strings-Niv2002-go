@@ -1,4 +1,4 @@
-Complete the given program with string declaration/initialization & read/print the string
+//Complete the given program with string declaration/initialization & read/print the string
 // Instructions:-
 //1) Initially, declare a string with size
 //2) read the input string from user 
@@ -11,9 +11,9 @@ Complete the given program with string declaration/initialization & read/print t
 #include <stdio.h>
 int main() 
 {
-                      //Declare the string
-printf("Enter a String: ")
-                      //read the string from user
-                      //Print the string
-return 0;
+ char name[10];
+ int age;                     //Declare the string
+printf("Enter your first name and age: ");
+scanf("%s%d",name,&age);
+printf("you entered:%s%d",name,age);
 }
